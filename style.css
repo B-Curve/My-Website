@@ -25,22 +25,22 @@
   top: 60px;
   list-style-type: none;
   font-size: 30px;
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
   width: 300px;
   height: 400px;
-  margin-right: 0;
+  margin: 0;
+  padding: 0;
+  right: 0px;
   float: right;
   background-color: #18211E;
-  border-top: 5px solid #984B43;
 }
 
 #clickSlide a{
   text-decoration: none;
-  padding-top: 12%;
+  display: block;
+  padding: 2px;
+  margin: 5px;
+  margin-top: 55px;
+  text-align: center;
   color: #984B43;
   font-family: impact;
-  text-align: center;
-  float: right;
 }
