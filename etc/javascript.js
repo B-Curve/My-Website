@@ -1,6 +1,6 @@
 $(function(){
 
-  $('#clickSlide').toggle();
+  $('#clickSlide').hide();
 
   $('#hamburger').mouseenter(function(){
     $(this).fadeTo('slow',0.3);
@@ -21,27 +21,43 @@ $(function(){
     $('.screen').animate({'marginTop':'20px'});
   });
   $('#home').mouseenter(function(){
-    $(this).css({color: '#FFA824'});
+    $(this).css({color: '#007849'});
   });
   $('#home').mouseleave(function(){
-    $(this).css({color: '#984B43'});
+    $(this).css({color: '#0375B4'});
   });
   $('#apps').mouseenter(function(){
-    $(this).css({color: '#FFA824'});
+    $(this).css({color: '#007849'});
   });
   $('#apps').mouseleave(function(){
-    $(this).css({color: '#984B43'});
+    $(this).css({color: '#0375B4'});
   });
   $('#about').mouseenter(function(){
-    $(this).css({color: '#FFA824'});
+    $(this).css({color: '#007849'});
   });
   $('#about').mouseleave(function(){
-    $(this).css({color: '#984B43'});
+    $(this).css({color: '#0375B4'});
   });
   $('#contact').mouseenter(function(){
-    $(this).css({color: '#FFA824'});
+    $(this).css({color: '#007849'});
   });
   $('#contact').mouseleave(function(){
-    $(this).css({color: '#984B43'});
+    $(this).css({color: '#0375B4'});
   });
+  $(document).ready(function(){
+    if($(window).width() < 600){
+      window.location.replace("mobile/mobileHome.html");
+    }
+  });
+  $(document).ready(function(){
+    if($(window).height() < 400){
+      window.location.replace("mobile/mobileHome.html");
+    }
+  });
+  $(window).resize(function(){
+    if($(window).width() < 600){
+      window.location.replace("mobile/mobileHome.html");
+    }
+  });
+
 });

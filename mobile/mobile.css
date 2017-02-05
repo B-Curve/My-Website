@@ -1,0 +1,34 @@
+.body{
+  background-color: #0375B4;
+  margin: 0;
+}
+
+.header{
+  height: 120px;
+  width: 100%;
+  background-color: #262228;
+  text-align: center;
+}
+
+#headerTitle{
+  font-size: 45px;
+  font-family: impact;
+  color: #0375B4;
+  line-height: 80px;
+}
+
+#down{
+  width: 100px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-top: 1px solid #0375B4;
+  border-right: 1px solid #0375B4;
+  border-left: 1px solid #0375B4;
+}
+
+#slideBar{
+  width: 100%;
+  height: 300px;
+  background-color: #262228;
+  margin-top: -25px;
+}

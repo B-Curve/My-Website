@@ -1,11 +1,11 @@
 .body{
-  background-color: #EE9A49;
+  background-color: #0375B4;
   margin: 0;
 }
 
 .headerContent{
   height: 60px;
-  background-color: #18211E;
+  background-color: #262228;
 }
 
 #screenContent{
@@ -20,12 +20,13 @@
   font-size: 25px;
   text-align: center;
   line-height: 50px;
+  border-radius: 25px;
 }
 
 #headerName{
   font-family: impact;
   font-size: 48px;
-  color: #984B43;
+  color: #0375B4;
   margin-left: 15px;
 }
 
@@ -43,7 +44,7 @@
   height: 60px;
   position: absolute;
   top: 60px;
-  background-color: #18211E;
+  background-color: #262228;
   border-top: 3px solid black;
 }
 
@@ -58,6 +59,32 @@
 
 #clickSlide a{
   text-decoration: none;
-  color: #984B43;
+  color: #0375B4;
   font-family: impact;
+}
+
+#textBoxContact{
+  width: 90%;
+  height: 400px;
+  background-color: #007849;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 25px;
+  font-family: impact;
+  font-size: 36px;
+  text-align: center;
+}
+
+#contactList{
+  list-style-type: none;
+  padding-top: 40px;
+}
+
+#contactList li{
+  padding-bottom: 40px;
+}
+
+@media and screen(max-width: 600px){
+  
 }
