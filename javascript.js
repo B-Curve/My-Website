@@ -4,18 +4,21 @@ $(function(){
 
   $('#hamburger').mouseenter(function(){
     $(this).fadeTo('slow',0.3);
-    $('#clickSlide').slideToggle();
+    $('#clickSlide').slideDown();
+    $('.screen').animate({'marginTop':'+=80px'});
   });
   $('#hamburger').mouseleave(function(){
     $(this).fadeTo('slow',1);
     if(('#clickSlide').is(':hover') === true){
     }
     else{
-      $('#clickSlide').slideToggle();
+      $('#clickSlide').slideUp();
+      $('.screen').animate({'marginTop':'20px'});
     }
   });
   $('#clickSlide').mouseleave(function(){
-    $('#clickSlide').slideToggle();
+    $('#clickSlide').slideUp();
+    $('.screen').animate({'marginTop':'20px'});
   });
   $('#home').mouseenter(function(){
     $(this).css({color: '#FFA824'});
