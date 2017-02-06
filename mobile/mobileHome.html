@@ -1,37 +1,86 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Brandon Kervin</title>
-<link rel='stylesheet' type='text/css' href='mobile.css'>
-<link rel='title icon' href='../etc/icon.jpg'>
-<script
-  src="https://code.jquery.com/jquery-2.2.4.js"
-  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-  crossorigin="anonymous"></script>
-<script src='mobile.js'></script>
-<script src='jquery.mobile-1.4.5.js' type='text/javascript'></script>
-<meta name='viewport' content="width=device-width, initial-scale=1">
+  <title>My Web Page</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel='stylesheet' type='text/css' href='style.css'>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src='script.js'></script>
 </head>
-<body class="body">
-  <div class='header'>
-    <span id='headerTitle'>Brandon Kervin</span>
-    <a href='#'>
-      <img id="down" src="pics/down.png"></img>
-    </a>
-    <div id='slideBar'>
-      <ul id='mobileElements'>
-        <li><a href='#' id='mobileHome'>HOME</a></li>
-        <li><a href='mobileApps.html' id='mobileWebs'>WEBSITES</a></li>
-        <li><a href='mobileAbout.html' id='mobileAbout'>ABOUT</a></li>
-        <li><a href='mobileContact.html' id='mobileContact'>CONTACT</a></li>
+
+<body>
+<div data-role='page' id='pageone' class='ui-page'>
+  <div data-role='header' class='ui-border'>
+    <h1>Brandon Kervin</h1>
+    <div data-role='navbar'>
+      <ul>
+        <li><a href='#'>Home</a></li>
+        <li><a href='#pagetwo'>Creations</a></li>
+        <li><a href='#pagethree'>About</a></li>
+        <li><a href='#pagefour'>Contact</a></li>
       </ul>
     </div>
   </div>
-  <div class='outerBody'>
-    <div id='home1' class='innerBody'><p>Hi, I'm Brandon Kervin.
-    I am a self-taught programmer looking to turn
-    a hobby of mine into a profession.</p></div>
-    <div id='home2' class='innerBody'><p>something.</p></div>
+  <div data-role='main' class='ui-content'>
+    <p>Welcome to my home on the internet.</p>
   </div>
+  <div data-role='footer' class='ui-border'>
+    <h1>Website created without assistance</h1>
+  </div>
+</div>
+<div data-role='page' id='pagetwo' class='ui-page'>
+  <div data-role='header' class='ui-border'>
+    <h1>My Creations</h1>
+    <div data-role='navbar'>
+      <ul>
+        <li><a href='#pageone'>Home</a></li>
+        <li><a href='#'>Creations</a></li>
+        <li><a href='#pagethree'>About</a></li>
+        <li><a href='#pagefour'>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role='main' class='ui-content'>
+    <p>Well it appears there is nothing here... That is because this
+    is the first website that I have designed, but I promise there
+    is more to come in the future!</p>
+  </div>
+  <div data-role='footer' class='ui-border'>
+    <h1>Website created without assistance</h1>
+  </div>
+</div>
+<div data-role='page' id='pagethree' class='ui-page'>
+  <div data-role='header' class='ui-border'>
+    <h1>About Me</h1>
+    <div data-role='navbar'>
+      <ul>
+        <li><a href='#pageone'>Home</a></li>
+        <li><a href='#pagetwo'>Creations</a></li>
+        <li><a href='#'>About</a></li>
+        <li><a href='#pagefour'>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role='main' class='ui-content'>
+    <p>My name is Brandon Kervin. I am a self-taught programmer.
+    I've always had an interest in computers my whole life,
+    be it me trying to hack my xbox as a 7th grader (with success) or just simply
+    trying to understand how a game works by reading save files
+    or even the source code when possible. I took an html course
+    in high-school and instantly knew what I wanted to do with
+    my life. Every since that course, I have had a growing passion
+    for programming over the past few years and know for sure that
+    this is what I want to be doing for the rest of my life.<br>
+    </p>
+  </div>
+  <div data-role='footer' class='ui-border'>
+    <h1>Website created without assistance</h1>
+  </div>
+</div>
 </body>
+
 </html>
