@@ -4,9 +4,13 @@
 <title>Brandon Kervin</title>
 <link rel='stylesheet' type='text/css' href='mobile.css'>
 <link rel='title icon' href='../etc/icon.jpg'>
-<script src='../etc/JQuery.js' type='text/javascript'></script>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
 <script src='mobile.js'></script>
-<meta name='viewport' content="width=device-width">
+<script src='jquery.mobile-1.4.5.js' type='text/javascript'></script>
+<meta name='viewport' content="width=device-width, initial-scale=1">
 </head>
 <body class="body">
   <div class='header'>
@@ -15,7 +19,19 @@
       <img id="down" src="pics/down.png"></img>
     </a>
     <div id='slideBar'>
+      <ul id='mobileElements'>
+        <li><a href='#' id='mobileHome'>HOME</a></li>
+        <li><a href='mobileApps.html' id='mobileWebs'>WEBSITES</a></li>
+        <li><a href='mobileAbout.html' id='mobileAbout'>ABOUT</a></li>
+        <li><a href='mobileContact.html' id='mobileContact'>CONTACT</a></li>
+      </ul>
     </div>
+  </div>
+  <div class='outerBody'>
+    <div id='home1' class='innerBody'><p>Hi, I'm Brandon Kervin.
+    I am a self-taught programmer looking to turn
+    a hobby of mine into a profession.</p></div>
+    <div id='home2' class='innerBody'><p>something.</p></div>
   </div>
 </body>
 </html>
