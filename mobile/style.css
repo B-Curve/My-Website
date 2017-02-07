@@ -1,0 +1,25 @@
+.ui-content img{
+  width: 75px;
+  height: 75px;
+  display:block;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.ui-content{
+  font-family: impact;
+  color: #373737;
+}
+
+.ui-page .ui-border{
+  color: #373737;
+  background-color: #dcd0c0;
+}
+
+.ui-page{
+  background-color: #c0b283;
+}
+
+.ui-border ul{
+  background-color: #c0b283;
+}
